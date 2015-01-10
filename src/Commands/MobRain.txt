@@ -21,7 +21,7 @@ setblock ~-1 ~5 ~ command_block 0 replace {Command: fill ~1 ~ ~ ~1 ~1 ~ air}
 setblock ~ ~5 ~-1 command_block 0 replace {Command: summon Villager ~ 255 ~ {CustomName: NewMob, Riding: {id: Item, Item: {id: glass, Count: 1}, Age: 6000, Riding: {id: Zombie, CustomName: NewMob, Riding: {id: Item, Item: {id: glass, Count: 1}, Age: 6000, Riding: {id: Spider, CustomName: NewMob, Riding: {id: Item, Item: {id: glass, Count: 1}, Age: 6000, Riding: {id: Skeleton, CustomName: NewMob, Riding: {id: Item, Item: {id: glass, Count: 1}, Age: 6000, Riding: {id: Creeper, CustomName: NewMob, Riding: {id: Item, Item: {id: glass, Count: 1}, Age: 6000, Riding: {id: Witch, CustomName: NewMob, Riding: {id: Item, Item: {id: glass, Count: 1}, Age: 6000, Riding: {id: Pig, CustomName: NewMob}}}}}}}}}}}}}}
 setblock ~ ~5 ~1 command_block 0 replace {Command: spreadplayers ~ ~ 5 50 false @e[name=NewMob]}
 setblock ~-1 ~6 ~ command_block 0 replace {Command: tp @e[name=NewMob] ~ ~100 ~}
-setblock ~1 ~6 ~ command_block 0 replace {Command: entitydata @e[name=NewMob] {CustomName: Tropfen}}
+setblock ~1 ~6 ~ command_block 0 replace {Command: entitydata @e[name=NewMob] {CustomName: Dinnerbone}}
 
 # Start the clock!
 setblock ~ ~5 ~ redstone_block 0 replace
